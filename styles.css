@@ -119,18 +119,16 @@ body{
 
 .hero .topbar {
     position:absolute;
-    top:18px;
+    top:0;
     left:0;
     right:0;
     display:flex;
     justify-content:center;
     align-items:center;
-    z-index:12;
+    z-index:10;
     background:linear-gradient(90deg, rgba(255,255,255,0.98), rgba(255,255,255,0.95));
-    padding:12px 24px;
-    border-radius:0;
-    box-shadow:0 8px 24px rgba(0,0,0,0.06);
-    gap:8px;
+    padding:8px 24px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.04);
 }
 
 .content {
