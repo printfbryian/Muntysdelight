@@ -119,13 +119,18 @@ body{
 
 .hero .topbar {
     position:absolute;
-    top:24px;
-    left:24px;
-    right:24px;
+    top:18px;
+    left:0;
+    right:0;
     display:flex;
     justify-content:center;
     align-items:center;
-    z-index:10;
+    z-index:12;
+    background:linear-gradient(90deg, rgba(255,255,255,0.98), rgba(255,255,255,0.95));
+    padding:12px 24px;
+    border-radius:0;
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);
+    gap:8px;
 }
 
 .content {
@@ -137,21 +142,25 @@ body{
     justify-content:flex-end;
     align-items:center;
     text-align:center;
+    padding-top:84px;
     padding-bottom:18vh;
 }
 
 .logo {
     position:absolute;
-    left:0;
+    left:24px;
+    top:50%;
+    transform:translateY(-50%);
     width:56px;
-    height:56px;
-    border-radius:50%;
-    background:rgba(255,255,255,.85);
+    height:50px;
+    border-radius:8px;
+    background:rgba(255,255,255,0.98);
     display:flex;
     align-items:center;
     justify-content:center;
-    box-shadow:0 18px 45px rgba(0,0,0,.08);
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
 }
+
 
 .logo img {
     width:100%;
