@@ -173,7 +173,7 @@ body{
 }
 
 .content h1 {
-    font-size:clamp(1.2rem, 2.5vw, 1.7rem);
+    font-size:clamp(1.4rem, 3vw, 2rem);
     color:#6d4b57;
     margin-bottom:12px;
 }
