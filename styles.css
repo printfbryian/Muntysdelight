@@ -147,7 +147,7 @@ body{
 .logo {
     position:absolute;
     left:10px;
-    top:100%;
+    top:20px;
     transform:translateY(-50%);
     width:46px;
     height:45px;
@@ -173,7 +173,7 @@ body{
 }
 
 .content h1 {
-    font-size:clamp(2.2rem, 4vw, 3.4rem);
+    font-size:clamp(1.2rem, 2.5vw, 1.7rem);
     color:#6d4b57;
     margin-bottom:12px;
 }
