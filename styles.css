@@ -147,7 +147,7 @@ body{
 .logo {
     position:absolute;
     left:10px;
-    top:20px;
+    top:100%;
     transform:translateY(-50%);
     width:46px;
     height:45px;
