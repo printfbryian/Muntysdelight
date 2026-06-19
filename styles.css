@@ -149,14 +149,13 @@ body{
     left:10px;
     top:50%;
     transform:translateY(-50%);
-    width:50px;
-    height:49px;
+    width:46px;
+    height:45px;
     border-radius:8px;
     background:rgba(255,255,255,0.98);
     display:flex;
     align-items:center;
     justify-content:center;
-    box-shadow:0 8px 20px rgba(0,0,0,.06);
 }
 
 
@@ -183,7 +182,7 @@ body{
     font-weight:300;
     font-size:1rem;
     max-width:360px;
-    color:#7d6b72;
+    color:#ffffff;
     margin-bottom:32px;
     line-height:1.6;
 }
