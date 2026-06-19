@@ -147,7 +147,7 @@ body{
 .logo {
     position:absolute;
     left:10px;
-    top:80%;
+    top:100%;
     transform:translateY(-50%);
     width:46px;
     height:45px;
@@ -167,7 +167,7 @@ body{
 
 .topbar h1 {
     font-family:'Playfair Display',serif;
-    font-size:clamp(1.4rem, 3vw, 2rem);
+    font-size:clamp(1.2rem, 2.5vw, 1.7rem);
     color:#6d4b57;
     margin:0;
 }
